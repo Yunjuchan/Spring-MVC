@@ -18,7 +18,5 @@ public class MemberListControllerV3 implements ControllerV3 {
         mv.getModel().put("members", members);
 
         return mv;
-
-
     }
 }
